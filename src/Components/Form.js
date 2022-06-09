@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Form = ({setMovies, searchValue, setSearchValue, setLast}) => {
 
-  const apiKey = "k_3z20uh0k"; 
+  const apiKey = "k_cz3ov99h"; 
   const url = `https://imdb-api.com/API/Search/${apiKey}/${searchValue}`; 
   
   // SETEAR SEARCH VALUE -> INPUT VALUE 
